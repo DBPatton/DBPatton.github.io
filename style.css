@@ -6,8 +6,9 @@
 	box-sizing: border-box;
 }
 :root {
-	--primary-color: #42A5F5;
+	--primary-color: #65A3CB;
 	--text-color: #b5b3b3;
+	--secondary-color: #EBB248;
 }
 ::selection {
 	background-color: #444282;
@@ -18,8 +19,7 @@ html {
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color:	black;
-	color: white;
+	background-color: rgb(18, 30, 42);
 }
 
 /* common styles */
@@ -57,7 +57,7 @@ a {
 }
 .item_subtitle {
 	font-size: 1.4rem;
-	color: #ffbf00;
+	color: var(--secondary-color);
 	font-weight: 400;
 }
 
@@ -68,7 +68,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background-color: rgb(18, 30, 42);
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -139,6 +139,7 @@ a {
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
+	color: var(--secondary-color);
 }
 .downloadBtn {
 	display: block;
@@ -147,7 +148,7 @@ a {
 	margin-top: 1rem;
 }
 .downloadBtn:hover {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 @media only screen and (max-width: 768px) {
 	.profile_container {
@@ -167,7 +168,8 @@ a {
 }
 .ref_name {
 	font-size: 1.6rem;
-	font-weight: 700;
+	font-weight: 400;
+	color: #EBB248;
 }
 
 /* education */
@@ -224,7 +226,7 @@ a {
 	color: var(--text-color);
 }
 .social_item:hover {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 .iconoir-github {
 	font-size: 2.5rem;
