@@ -31,8 +31,10 @@ a {
 	text-decoration: none;
 	color: var(--alt-color);
 }
-.night-mode-button {
-	grid-column: 2 / 2;
+@media only screen and (min-width: 768px) {
+	.night-mode-button {
+		grid-column: 2/-1;
+	}
 }
 .label {
 	cursor: pointer;
