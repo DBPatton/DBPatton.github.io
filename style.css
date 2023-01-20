@@ -165,6 +165,7 @@ body.night {
 }
 .profile_profileImg {
 	max-width: 250px;
+	min-width: 249px;
 }
 .profile_name_firstName {
 	color: var(--alt-color);
