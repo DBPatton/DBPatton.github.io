@@ -12,7 +12,7 @@
 	--background-color: #121E2A;
 	--alt-color: #F8F9FA;
 }
-::selection {
+span::selection {
 	background-color: #444282;
 	color: #FFFFFF;
 }
