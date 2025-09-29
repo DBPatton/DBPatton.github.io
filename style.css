@@ -317,5 +317,44 @@ hr {
 @media only screen and (max-width: 768px) {
 	hr {
 		margin: 0 auto;
+
+/* === UNIVERSAL TEXT SELECTION === */
+
+/* All elements */
+*::selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+*::-moz-selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+
+/* Night mode - all nested elements */
+.night *::selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+.night *::-moz-selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+
+/* Interactive elements (links, buttons, inputs, textareas) */
+a::selection,
+button::selection,
+input::selection,
+textarea::selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+a::-moz-selection,
+button::-moz-selection,
+input::-moz-selection,
+textarea::-moz-selection {
+    background-color: #444282;
+    color: #FFFFFF;
+}
+
 	}
 }
