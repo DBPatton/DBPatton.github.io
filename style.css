@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Space+Mono&display=swap');
 
-* 
-}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	}
 ::selection {
 	background-color: #444282;
 	color: #FFC0CB;
 }
-{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
 :root {
 	--primary-color: #65A3CB;
 	--text-color: #b5b3b3;
