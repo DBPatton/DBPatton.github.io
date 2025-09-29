@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Space+Mono&display=swap');
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+* 
 }
 ::selection {
 	background-color: #444282;
 	color: #FFFFFF;
 }
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 :root {
 	--primary-color: #65A3CB;
 	--text-color: #b5b3b3;
@@ -349,21 +350,6 @@ hr {
     background-color: #444282;
     color: #FFFFFF;
 }
-
-/* Interactive elements (links, buttons, inputs, textareas) */
-a::selection,
-button::selection,
-input::selection,
-textarea::selection {
-    background-color: #444282;
-    color: #FFFFFF;
-}
-a::-moz-selection,
-button::-moz-selection,
-input::-moz-selection,
-textarea::-moz-selection {
-    background-color: #444282;
-    color: #FFFFFF;
 }
     }
 }
