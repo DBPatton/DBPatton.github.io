@@ -5,16 +5,16 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+::selection {
+	background-color: #444282;
+	color: #FFFFFF;
+}
 :root {
 	--primary-color: #65A3CB;
 	--text-color: #b5b3b3;
 	--secondary-color: #EBB248;
 	--background-color: #121E2A;
 	--alt-color: #F8F9FA;
-}
-::selection {
-	background-color: #444282;
-	color: #FFFFFF;
 }
 html {
 	font-size: 10px;
