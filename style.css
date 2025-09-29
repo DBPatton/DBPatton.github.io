@@ -240,6 +240,16 @@ body.night {
 .exp_item {
 	margin-top: 2rem;
 }
+.Technical_Consultant_List	{
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
+.Junior_Technical_Developer	{
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
 
 /* Interests */
 .interest_items {
