@@ -5,9 +5,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-::selection {
-	background-color: #444282;
-	color: #FFFFFF;
+*::selection { background-color: #444282; color: #FFFFFF; }
+*::-moz-selection { background-color: #444282; color: #FFFFFF; }
+
 }
 :root {
 	--primary-color: #65A3CB;
