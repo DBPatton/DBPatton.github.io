@@ -207,6 +207,21 @@ body.night {
 .downloadBtn:hover.night {
 	color: #d3a040;
 }
+.hokieBtn {
+	display: inline-block;
+	text-decoration: underline;
+	font-size: 1.6rem;
+	margin-top: 1rem;
+}
+.hokieBtn.night {
+	color: var(--background-color);
+}
+.hokieBtn:hover. {
+	color: #861F41;
+}
+.hokieBtn:hover.night {
+	color: #861F41;
+}
 @media only screen and (max-width: 768px) {
 	.profile_container {
 		flex-direction: column;
