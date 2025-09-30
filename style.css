@@ -103,6 +103,9 @@ body.hokie .item_preTitle {
 .item_title.night {
 	color: var(--background-color);
 }
+.item_title.hokie {
+	color: #E5751F;
+}
 .item_subtitle {
 	font-size: 1.4rem;
 	color: var(--secondary-color);
