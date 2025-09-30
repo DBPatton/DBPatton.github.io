@@ -85,15 +85,6 @@ a {
 	font-weight: 300;
 	display: inline-block;
 }
-/* Night Mode Override */
-body.night .item_preTitle {
-  --text-color: var(--night-color);  /* Switch text color for night mode */
-}
-
-/* Hokie Mode Override */
-body.hokie .item_preTitle {
-  --text-color: var(--hokie-orange-color);  /* Switch text color for Hokie mode */
-}
 .item_title {
 	font-size: 1.6rem;
 	color: var(--alt-color);
