@@ -10,8 +10,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
 </head>
 
-<body class="night-mode-available">
-	<div class="container night-mode-available">
+<body class="night-mode-available hokie-mode-available">
+	<div class="container night-mode-available hokie-mode-available">
 		<div class="night-mode-button">
 			<input type="checkbox" class="checkbox" id="night-mode">
 			<label for="night-mode" class="label">
@@ -42,9 +42,10 @@
 				<div class="edu_item">
 					<p class="item_preTitle night-mode-available">2015-2019</p>
 					<h4 class="item_title night-mode-available">B.S. Business Information Technology, DSS</h4>
-					<input type="checkbox" class="checkbox" id="hokie-mode">
+					<div class="hokie-mode-button">
+					<input type="checkbox" class="hokie-checkbox" id="hokie-mode">
 					<label for="hokie-mode" class="label">
-					<p class="item_subtitle night-mode-available">
+					<p class="item_subtitle hokie-text night-mode-available">
 						Virginia Tech
 					</p>
 					<p class="description night-mode-available">
@@ -152,6 +153,14 @@
 		document.querySelector('.checkbox').addEventListener('change',()=>{
 			document.querySelectorAll('.night-mode-available').forEach(ele=>{
 				ele.classList.toggle('night');
+			})
+		});
+	</script>
+
+	<script type="text/javascript">
+		document.querySelector('.checkbox').addEventListener('change',()=>{
+			document.querySelectorAll('.hokie-mode-available').forEach(ele=>{
+				ele.classList.toggle('hokie');
 			})
 		});
 	</script>
