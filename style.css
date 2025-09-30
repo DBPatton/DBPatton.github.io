@@ -92,7 +92,7 @@ body.night .item_preTitle {
 
 /* Hokie Mode Override */
 body.hokie .item_preTitle {
-  --text-color: var(--hokie-color);  /* Switch text color for Hokie mode */
+  --text-color: var(--hokie-orange-color);  /* Switch text color for Hokie mode */
 }
 .item_title {
 	font-size: 1.6rem;
