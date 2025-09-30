@@ -15,9 +15,6 @@
 	--secondary-color: #EBB248;
 	--background-color: #121E2A;
 	--alt-color: #F8F9FA;
-	--night-color: #5a5a5a;
-	--hokie-orange-color: #E5751F;
-	--hokie-marroon-color:  #861F41;
 }
 html {
 	font-size: 10px;
@@ -56,9 +53,6 @@ a {
 	opacity: 0;
 	position: absolute;
 }
-.hokie-checkbox {
-	opacity: 0;
-}
 .description {
 	margin-top: 1rem;
 	font-size: 1.5rem;
@@ -67,9 +61,6 @@ a {
 	line-height: 2.3rem;
 }
 .description.night {
-	color: #5a5a5a;
-}
-.description.hokie {
 	color: #5a5a5a;
 }
 .title {
@@ -84,6 +75,9 @@ a {
 	font-weight: 300;
 	display: inline-block;
 }
+.item_preTitle.night {
+	color: #5a5a5a;
+}
 .item_title {
 	font-size: 1.6rem;
 	color: var(--alt-color);
@@ -92,9 +86,6 @@ a {
 }
 .item_title.night {
 	color: var(--background-color);
-}
-.item_title.hokie {
-	color: #E5751F;
 }
 .item_subtitle {
 	font-size: 1.4rem;
